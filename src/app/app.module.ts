@@ -1,16 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { Picture } from '../components/picture/picture';
+import { PictureUpload } from '../components/picture_upload/picture_upload';
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Picture,
+    PictureUpload
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [CosmicConfigService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
