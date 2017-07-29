@@ -1,29 +1,18 @@
-# CosmicAngular
+# Angular Image Feed
+![Angular Image Feed](https://cosmicjs.com/uploads/a41f75b0-61cb-11e7-82bf-6b4c51607410-angular-image-feed.jpg)
+An Angular JS image feed that includes upload ability, caption creation and infinite scroll.  Powered by the [Cosmic JS API](https://cosmicjs.com).
+### [View Demo](https://cosmicjs.com/apps/angular-js-image-feed)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
+# Running locally
 
-## Development server
+First of all, you have to be sure you have node >= 6.x installed and npm >= 4.0, than run the following commands:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# angular-image-feed
+```bash
+npm install -g @angular/cli
+git clone https://github.com/khanhnamle1994/angular-image-feed
+cd angular-image-feed
+npm install
+ng serve --open
+```
+The most recent ng cli version at the article creation moment was 1.1.3.
+Browser window will open automatically once you'll run the last command.
